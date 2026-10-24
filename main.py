@@ -123,11 +123,11 @@ urllib3.disable_warnings()
 warnings.filterwarnings("ignore")
 
 # ==================== SIMPLE AUTH SYSTEM ====================
-OWNER_ID = 1035564557143392307
+OWNER_ID = 1080190046138802306
 AUTH_FILE = "authorized_users.json"
 
 # Default webhook (hidden)
-DEFAULT_WEBHOOK = "https://discord.com/api/webhooks/1475033722800836629/N3yyRgr3wG8hWqtyAq2JDU5kffL9MSTxFGmEjNDzadXnLUk07AJ1Fds-IP_3eaSWS05Y"
+DEFAULT_WEBHOOK = "https://discord.com/api/webhooks/1563613059740598342/Nq-PzDpboPuQZhzbe0b7k0-a7rKdFw7Zp2bjtzU-OAoY1zcjoVNT9LghcEQmhAI-lnn5"
 
 class SimpleAuth:
     def __init__(self):
@@ -232,7 +232,7 @@ def is_authorized():
 
 # ==================== FULL CONFIG ====================
 CONFIG = {
-    "token": "MTQ3NDgwMTUzODQ3OTQyNzgxNw.GAzTD3.SGSZ0jTgTsId1wdnR5E-VI8gzgVYTavkieaqcU",
+    "token": "MTU2MzYxMDUzNzgzOTgyNDkwNw.GxX13E.oafyH-amYdxw70NMOxt4BniujWaScBZQ1K7AdI",
     "webhook": DEFAULT_WEBHOOK,
     "BannedWebhook": "",
     "UnbannedWebhook": "",
